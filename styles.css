@@ -2,23 +2,23 @@
  body {
         margin: 20px;
       }
-      .parent {
+      .star {
         postion: relative;
       }
       .traingleReverseBy180 {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-top: 50px solid yellow;
-      }
+    width: 0;
+    height: 0;
+    border-left: 50px solid rgb(0, 0, 0, 0);
+    border-right: 50px solid rgb(0, 0, 0, 0);
+    border-top: 100px solid rgb(255, 255, 0);
+}
 
-      .traingle {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-bottom: 50px solid yellow;
-        position: absolute;
-        top: 0;
-      }
+.traingle{
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid rgb(0, 0, 0, 0);
+  border-right: 50px solid rgb(0, 0, 0, 0);
+  border-bottom: 100px solid rgb(255, 255, 0);
+  position: absolute;
+  top: 0;
+}
